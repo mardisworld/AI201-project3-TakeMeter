@@ -15,7 +15,6 @@ model/
 # Generated evaluation/training outputs
 data/baseline_predictions*.csv
 data/finetuned_predictions.csv
-data/evaluation_results*.json
 data/Model2.json
 data/clean.csv
 data/train.csv
