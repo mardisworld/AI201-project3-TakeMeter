@@ -1,0 +1,61 @@
+{
+  "model_name": "fine-tuned distilbert-base-uncased",
+  "generated_at_utc": "2026-06-29T04:27:00.254552+00:00",
+  "source_predictions_file": "data/finetuned_predictions.csv",
+  "scored_rows": 34,
+  "skipped_rows": 0,
+  "accuracy": 0.529412,
+  "macro_f1": 0.489583,
+  "per_class": {
+    "analysis": {
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1": 0.333333,
+      "support": 4
+    },
+    "op_response": {
+      "precision": 0.588235,
+      "recall": 0.666667,
+      "f1": 0.625,
+      "support": 15
+    },
+    "response": {
+      "precision": 0.625,
+      "recall": 0.416667,
+      "f1": 0.5,
+      "support": 12
+    },
+    "question": {
+      "precision": 1.0,
+      "recall": 0.333333,
+      "f1": 0.5,
+      "support": 3
+    }
+  },
+  "confusion_matrix": {
+    "analysis": {
+      "analysis": 2,
+      "op_response": 2,
+      "response": 0,
+      "question": 0
+    },
+    "op_response": {
+      "analysis": 3,
+      "op_response": 10,
+      "response": 2,
+      "question": 0
+    },
+    "response": {
+      "analysis": 3,
+      "op_response": 4,
+      "response": 5,
+      "question": 0
+    },
+    "question": {
+      "analysis": 0,
+      "op_response": 1,
+      "response": 1,
+      "question": 1
+    }
+  }
+}
