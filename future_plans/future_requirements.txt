@@ -1,0 +1,33 @@
+# Future fact-aware pipeline dependencies (post-assignment roadmap)
+
+# Core ML/data
+transformers>=4.41.0,<5.0.0
+datasets>=2.20.0
+torch
+scikit-learn>=1.4.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# NLP utilities for claim extraction
+spacy>=3.7.0
+sentence-transformers>=3.0.0
+
+# Retrieval and HTTP
+wikipedia-api>=0.6.0
+requests>=2.32.0
+beautifulsoup4>=4.12.0
+rank-bm25>=0.2.2
+
+# Optional vector retrieval layer
+faiss-cpu>=1.8.0
+
+# API/service and validation
+fastapi>=0.112.0
+uvicorn>=0.30.0
+pydantic>=2.8.0
+
+# Observability and experiment tracking
+mlflow>=2.14.0
+
+# Testing
+pytest>=8.2.0

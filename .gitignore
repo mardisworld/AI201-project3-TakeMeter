@@ -1,0 +1,23 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+# Large/generated artifacts
+model/
+.gradio/
+*.safetensors
+*.pt
+*.bin
+
+# Generated evaluation/training outputs
+data/baseline_predictions*.csv
+data/finetuned_predictions.csv
+data/evaluation_results*.json
+data/Model2.json
+data/clean.csv
+data/train.csv
+data/val.csv
+data/test.csv
